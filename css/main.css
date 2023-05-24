@@ -16,6 +16,7 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+
 }
 
 h1,
@@ -35,14 +36,15 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
-}
-
-h4 {
 	font-size: 1.25em;
 }
 
+h4 {
+	font-size: .75em;
+}
+
 p {
+	font-size: 1rem;
 	line-height: 36px;
 }
 
@@ -55,10 +57,10 @@ header {
 }
 
 header h1 {
-	width: 100%;
 	margin: 0;
 	padding: 38px 0 20px 0;
 	border-bottom: 3px solid #77a466;
+	width: 100%;
 }
 
 header h1 span {
@@ -70,8 +72,8 @@ header nav {
 }
 
 header nav ul {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -97,7 +99,6 @@ header nav ul li a {
 	border-bottom: 3px solid #77a466;
 }
 
-
 .main-title h2 {
 	color: #45610E;
 	padding: 5px 0;
@@ -108,7 +109,6 @@ header nav ul li a {
 .bottom-section {
 	display: flex;
 	justify-content: center;
-
 }
 
 .bottom-section .content-wrapper {
@@ -123,19 +123,16 @@ header nav ul li a {
 }
 
 .section-one {
-	/** PREVIOUS width: 29%; **/
 	width: 100%;
 }
 
 .section-two {
-	/** PREVIOUS width: 42%; **/
 	width: 100%;
-	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
 }
 
 .section-three {
-	/** PREVIOUS width: 29%; **/
 	width: 100%;
 }
 
@@ -144,14 +141,14 @@ header nav ul li a {
 }
 
 .menu-list {
-	padding: 0;
+	padding-left: 0;
 	list-style: none;
 }
 
 .menu-list li {
 	color: #45610E;
-	font-size: 1em;
 	line-height: 36px;
+	font-size: 1rem;
 }
 
 /******** FOOTER STYLES ********/
@@ -166,5 +163,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 0.875em;
+	font-size: .875rem;
 }
